@@ -6,6 +6,6 @@
      <tr>
          <td><a href="Home">Home</a></td>
          <td><a href="Code">Code</a></td>
-         <td><a href="Notes">CB Notes</a></td>
+         <td><a href="notes">CB Notes</a></td>
      </tr>
  </table>

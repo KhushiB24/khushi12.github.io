@@ -9,10 +9,3 @@
          <td><a href="Notes">CB Notes</a></td>
      </tr>
  </table>
-
-
-### Week 0 Notes 
-### Week 0 Code 
-
-### Week 1 Notes
-### Week 1 Code

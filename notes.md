@@ -3,6 +3,7 @@
 
 ## TPT 0.1 Written Response
 Notes
+
 Drones: can be used in class demonstrations or can be used to find something that is way high up in a classroom
 Dopamine & Video Games: with increased time with video games, depending on the situation, the people playing would neglect the basic needs for human survival (food, sleep, social skills, and hygiene)
 Automated Telephones Trees: used for customer service, a procedural diagram that goes step by step of whether or not the input needs an automated response or human response. Procedural diagrams

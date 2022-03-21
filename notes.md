@@ -3,24 +3,25 @@
 
 ## TPT 0.1 Written Response
 
-Drones: can be used in class demonstrations or can be used to find something that is way high up in a classroom
-Dopamine & Video Games: with increased time with video games, depending on the situation, the people playing would neglect the basic needs for human survival (food, sleep, social skills, and hygiene)
-Automated Telephones Trees: used for customer service, a procedural diagram that goes step by step of whether or not the input needs an automated response or human response. Procedural diagrams
+### Notes on Benefits and Harmful Effect of Computing
+- Drones: can be used in class demonstrations or can be used to find something that is way high up in a classroom
+- Dopamine & Video Games: with increased time with video games, depending on the situation, the people playing would neglect the basic needs for human survival (food, sleep, social skills, and hygiene)
+- Automated Telephones Trees: used for customer service, a procedural diagram that goes step by step of whether or not the input needs an automated response or human response. Procedural diagrams
 
 ### Github Pages Action Answers
-Three of Beneficial and corresponding Harmful Effects of Computing:
+- Three of Beneficial and corresponding Harmful Effects of Computing:
 
-Insight on how the algorithm works
-Increased creativity due to typing
-Helps to solve hacking + virus related issues
-Harmful Effects:
-Would notice the business strategies and would need to solve any problems related to those
-May have a decreased amount of writing on paper involved(impacts learning and memorization)
-Would need to go to an organization or a greater authority if the mess-up happens from one's side.
+1. Insight on how the algorithm works
+2. Increased creativity due to typing
+3. Helps to solve hacking + virus related issues
+- Harmful Effects:
+1. Would notice the business strategies and would need to solve any problems related to those
+2. May have a decreased amount of writing on paper involved(impacts learning and memorization)
+3. Would need to go to an organization or a greater authority if the mess-up happens from one's side.
 
-Dopamine issues exist is real and does occur in my personal study and success in High School, where increased accessibility to unlimited data, newer phones, and an increase of entertainment during quarantine. 
-This may lead to a habit of depending on technology for happiness, and in some circumstances avoiding any type of social interaction with loved ones. Due to virtual learning, the attention and concentration in now in-person class is harder because of the distraction that may have happened during home in virtual-learning. 
-Therefore, it is harder to give focus to the class activities due to phone distraction and/or the habit of checking the phone during at home learning.
+- Dopamine issues exist is real and does occur in my personal study and success in High School, where increased accessibility to unlimited data, newer phones, and an increase of entertainment during quarantine. 
+- This may lead to a habit of depending on technology for happiness, and in some circumstances avoiding any type of social interaction with loved ones. Due to virtual learning, the attention and concentration in now in-person class is harder because of the distraction that may have happened during home in virtual-learning. 
+- Therefore, it is harder to give focus to the class activities due to phone distraction and/or the habit of checking the phone during at home learning.
 
 ## TPT 0.2 
 
@@ -42,3 +43,49 @@ Therefore, it is harder to give focus to the class activities due to phone distr
 
 3. The paper on the diagram provided is blocking digital empowerment. Yes, there are such barriers at Del Norte due to people who can't afford to have their own devices or the way the school Chromebook are(not good use for Computer Science classes). 
 There is digital divide in elsewhere such people who don't have stable WiFi connections to power going out or poor signals due to bad weather.
+
+## TPT 1.0
+
+## Notes on Computing Bias
+
+### Intentional or Purposeful Bias: 
+- Two social media platforms, which is known to baised on age (note: Facebook is more used by older people) 
+- Cases of voice decting error because of a different accent 
+- Streaming services only streaming based on what the users are baised to see
+
+### Github Pages Action 
+1. The owner of the computer doesn't think this was intentional, because when programing there wasn't a given instructions for the camera to do a face recogniation for any person. Just as how some of the voice recongization doesn't occur due to an unique accent, the camera wasn't advanced program to dectect any given face.
+
+2. I think this happened because the programmers of the computer didn't have a diverse sample, and didn't taught to do so as they may have assumed that any person would be dectected if they only a few samples of faces that the computer would recongize.
+
+3. Yes, it is harmful due to the fact that there were assumptions made by the programmers to not include diversity as part of their camera project. I think it wasn't intented for the programmers to exclude certain faces from others for recongization, however the programmers did generalize. 
+
+4. Yes, it should be corrected and updated at all times.
+
+5. I would have a diverse groups of people that have an unique ethnic background to be evalauted and further code the program to allow any person, based on a given set values of rgb and facial features to recognize people.
+
+## TPT 1.1
+
+## Notes on Crowdsourcing
+- more crowdsoucing = more connectivity and less computer bias due to diversity
+- have sources to get info, send info, and be active in participation of distributed computing
+
+### Evidence of Crowdsourcing
+- Wikipedia has a self-policing community by reviews
+- Crypto Currency and Block Chain are reviewed by other after indiviual miners do calculations, has helped the government to see currency in a new light, and block chains are associated with private data
+- COVID Data initated extra caution and helped made decisions to protect oneself and community
+
+### Obtain Data via Crowdsourcing
+- RapidAPI where we learned about receiving and analyzing data 
+- GitHub through forking, looking profiles and code history, Kaggle recommendation
+
+### Github Pages Action
+1. A crowdsource idea is that we would have a forum within the main cspnighthawkcodersociety page, where here we can receive extra help based on current assignments and the main points of each lesson that we learn highlighted, so if anyone misses a day they won't miss the main learning. I think how I can initiate this idea in our environment is that I can start with a smaller class, such as my own CSP class and encourage others to participate in the forum for guidance and coding strategies.
+
+2. Del Norte crowdsourcing could work where there can be a common theme within CSP that can help the general population of the school, such as what to do if their Wifi in a computer goes out. Yes, my final project could be better with crowdsourcing because of more input and diverse ideas.
+
+
+
+
+
+

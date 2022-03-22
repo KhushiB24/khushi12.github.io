@@ -85,6 +85,49 @@ There is digital divide in elsewhere such people who don't have stable WiFi conn
 2. Del Norte crowdsourcing could work where there can be a common theme within CSP that can help the general population of the school, such as what to do if their Wifi in a computer goes out. Yes, my final project could be better with crowdsourcing because of more input and diverse ideas.
 
 
+## TPT 2.0
+
+## Notes on the Legal and Ethical Concerns
+- Cost of Free Code
+- Money on Patents and Open Source is by the nature
+- Create Commons Zero v1.0 Universal 
+  - copyright interest and dedicates to world-wide public domain
+- Open Source MIT License: code freely and to create closed source versions
+- Open Source GPL License: deliver code in parts and is from away from GPL Creative Commons code where spliting the contrubiton code may be needed 
+
+### Legal and Ethically
+- Digital Rights Management software to protect, play, and/or distribute content
+- When bypassing the systems and not having a subscription, this would mean that the user had downloaded and used the music or art content with the violation of the DRM, this means the action is illegal.
+- Initial PUblic Offering(IPO)
+- Creative Commons and Open Source 
+
+### Github Pages Action
+1. License types to the Tech Talk: Open Source License in GitHub and there are three platforms such as community and working edition.
+2. We are still on the way to choose a license for the group project, we would most likely use the Creative Commons License. 
+
+## Notes on Safe Computing
+- Personal Identifiable Information (PII)
+- LinkedIn is a dichotomy, where we want to be known for our accomplishments
+
+### PII Considerations
+- Don't reveal important and confidential information about yourself such as Social Security Number, Tax Records, and other personal info to be concealed
+- Grey items, be cautious such as Phone Number, Address, Name, Drivers License Number
+
+### Beware, Establish practices for your own Safety
+- Multi-factor authentication or biometrics
+- Malware has attachments 
+- Phising is someone who tries to mainpulate to the users to repsond to what they send
+
+### Factors to Increase Security of System
+- Multi Factor Authentication
+- Biometrics= fingerprints or facial recognition
+- Symmetric encryption: type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic info.
+- Asymmetric cryptography(public-key cryptography): use a pair of related keys, one public key and and one private key, where to encrypt and decrypt a message and protect that from unauthorized access or use.
+
+### Nefarious Uses of Internet
+    
+
+
 
 
 

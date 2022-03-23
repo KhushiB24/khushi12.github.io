@@ -105,6 +105,12 @@ There is digital divide in elsewhere such people who don't have stable WiFi conn
 1. License types to the Tech Talk: Open Source License in GitHub and there are three platforms such as community and working edition.
 2. We are still on the way to choose a license for the group project, we would most likely use the Creative Commons License. 
 
+- Additional Notes:
+  - open source license, where you can use the data and claim as your own
+  - patents get the rights to something 
+
+## Part 2
+
 ## Notes on Safe Computing
 - Personal Identifiable Information (PII)
 - LinkedIn is a dichotomy, where we want to be known for our accomplishments
@@ -125,6 +131,38 @@ There is digital divide in elsewhere such people who don't have stable WiFi conn
 - Asymmetric cryptography(public-key cryptography): use a pair of related keys, one public key and and one private key, where to encrypt and decrypt a message and protect that from unauthorized access or use.
 
 ### Nefarious Uses of Internet
+
+
+
+
+
+
+
+
+- Additional Notes:
+  - safe computing = be aware of what info is getting sent
+  - DNS and do google search to find your deployed site
+  - SSL (Secure Sockets Layer) 
+  - Pick a license for your repository( insgiht= change license) and pick a license for the team project  
+
+## TT2 Notes:
+- organize the topics 
+- MVC 
+- OOP = crud stuff, where the users used it
+- Fibonacci, init(self) where self is a classes and the class talks about itself
+  - Class is a template and defines the values
+  - starting values for Fibonaaci is with the binary numbers
+  - fibo_of is variable
+- debugger call function
+def __call__(self, n):
+        if n < len(self.fiboSeq):
+            return self.fiboSeq[n]
+        else:
+            # Compute the requested Fibonacci number
+            fib_number = self(n - 1) + self(n - 2) # two recursive calls to self (__call__(self, n))
+            self.fiboSeq.append(fib_number) # builds list, with most nested of the calculations 1st... may hurt your head
+        return self.fiboSeq[n]
+  
     
 
 

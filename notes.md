@@ -131,6 +131,16 @@ There is digital divide in elsewhere such people who don't have stable WiFi conn
 - Asymmetric cryptography(public-key cryptography): use a pair of related keys, one public key and and one private key, where to encrypt and decrypt a message and protect that from unauthorized access or use.
 
 ### Nefarious Uses of Internet
+- Virus/Malware are anatonym of security
+- Phising is to get virus into your device
+
+### Github Pages Actions:
+1. I have seen PII on my project where I had made about me page, which had my name. In first trimester, I had talked about my grade, my name, and what my parents do for work.
+2. My feelings for PII and expose is that I understand why PII is used and for what reason. However there should be precaution with the personal info that we share online as there are bad people everywhere who would want to take advantage of our PII, by phising or hacking.
+3. Good passwords are passwords that have mutliple characters, some numbers, and symbols. The safe length for a password would be 16-40, where I had a few college portals that have asked for a 40 character password. Bad passwords are passwords that are easy to guess and are veery short.
+4. Symmetric Encryption is to get one key that key works for encryption and decryption. While, Assymetric Encryption is where there is one key for encryption and another key for decryption.
+5. An example of encryption in deployment would be to use the IP freenom to make the IP address for the website public.
+6. A phising scheme I have learned the hard way is to report the college websites that showcase that there is a message. Other techniques of phising would be through calls claiming something big to be fixed.
 
 
 

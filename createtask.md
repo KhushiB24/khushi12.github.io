@@ -2,109 +2,81 @@
 
 # Create Task
 
+## Code
+## [Runtime](https://replit.com/@KhushiBagri/Createtask#main.py)
+## [Video to Runtime](https://drive.google.com/file/d/1Q6jI5tntCmO0UYorzpJk2wD3dlwkRsXM/view)
 
-from statistics import *
+<img width="900" alt="Screen Shot 2022-04-24 at 11 46 46" src="https://user-images.githubusercontent.com/89240973/164991778-d257cf72-f94c-4e53-9730-42c9222a84d4.jpg">
 
-numList = []
 
-print('Hello user! This program outputs the mean, median, and mode of your inputted list! Try it!')
+<img width="852" alt="Screen Shot 2022-04-24 at 11 47 38 AM" src="https://user-images.githubusercontent.com/89240973/164993972-be055c2d-fff6-4725-a2a5-675aeac5beb2.jpg">
 
-def OR(input, first, second):
- bool = input == first or input == second
- return bool
 
-while True:
- addInput = input('Would you like to add a number to the list? (y/n)')
- if OR(addInput, 'y', 'yes'):
-   try:
-     itemInput = int(input('What number would you like to add?'))
-   except:
-     print('Oh no! That wasn\'t an expected answer. Exiting...')
-     break
-   numList.append(itemInput)
-   print('Number inputted.')
- elif OR(addInput, 'n', 'no'):
-   print('Ok! Exiting...')
-   break
- else:
-   print('Oh no! That wasn\'t an expected answer. Exiting...')
-   break
+## 3a. i. Describes the overall purpose of the program 
 
+Answer: The overall purpose of the program is to have a Mean, Median, Mode Math Quiz Game. In this game, the users are asked if they liked to add a number in the numlist, where then they are pormpted to answer with "y" for yes and "n" for no. If user selects "y", they are asked to enter a number to add to their numlist, if selected "n" the game ends and exits. 
+
+## 3a. ii. Describes what functionality of the program is demonstrated in the video
+
+Answer: The functionality of the program that is demonstrated in the video would be how we can refresh the page as well as for the Math Quiz, the users can enter lists of numbers that they would want to use for the Math Quiz.
+
+## 3a. iii. Describes the input and output of the program demonstrated in the video
+
+Answer: The input and output of the program demonstrated in the video would be how the Math Quiz and how the users can choose what numbers they would like to add to their list. Then, the output would be the mean, median, mode, min, and max that becomes the result of the numbers the users chose.
+
+## 3 b. Capture and paste two program code segments you developed during the administration of this task that contain a list (or other collection type) being used to manage complexity in your program.
+
+### i. The first program code segment must show how data have been stored in the list. 
+```python
+        try:
+            itemInput = int(input('What number would you like to add?'))
+        except:
+            print('Oh no! That wasn\'t an expected answer. Exiting...')
+            break
+        numList.append(itemInput)
+        print('Number inputted.')
+```
+
+
+### ii. The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose.
+
+```python 
 mean = mean(numList)
 median = median(numList)
 mode = mode(numList)
 min = min(numList)
 max = max(numList)
-statInput = input('Would you like to see the list and the stastistics of the list? (y/n)')
-if OR(statInput, 'y', 'yes'):
- print('The list is: ' + str(numList))
- print('The mean is ' + str(mean) + '.')
- print('The median is ' + str(median) + '.')
- print('The mode is ' + str(mode) + '.')
- print('The range is ' + str(min) + ' --> ' + str(max) + '.')
-elif OR(statInput, 'n', 'no'):
- print('Ok! End of Program.')
+    
+```
 
+### iii. Identifies the name of the list being used in this response
 
+Answer: The name of the list being used in this response would be (numList). The numList only contains the values that are identified as valid and accepted by the program according to when and where the user had given the input values. 
 
+### iv. Describes what the data contained in the list represent in your program
 
+Answer: The data contained in the list that represents in my program would be the numbers that the user had decided to use. Additionally, if asked if there would be another number that the user would like to input, where if the user puts a number directly or says no the program would end right there. 
 
-3a. i. Describes the overall purpose of the program 
+### v. Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list 
 
-The overall purpose of the program is to have a Mean, Median, Mode Math Quiz Game. In addition, if the users feel bored or that they need some break time, they can view the MathApi page which displays random facts and years. 
+Answer: The selected list manages complexity in the program code by how the code would have been written differently if I didn’t use a list would be to let the user use random numbers that had pre-stored in the code. The new code would give the users to manually pick which numbers they would like to use according to what is given. The word count is 157.
 
-3a. ii. Describes what functionality of the program is demonstrated in the video
+## 3 c. Capture and paste two program code segments you developed during the administration of this task that contain a student-developed procedure that implements an algorithm used in your program and a call to that procedure. 
 
-The functionality of the program that is demonstrated in the video would be how we can refresh the page as well as for the Math Quiz, the users can enter lists of numbers that they would want to use for the Math Quiz.
-
-3a. iii. Describes the input and output of the program demonstrated in the video
-
-The input and output of the program demonstrated in the video would be how the Math Quiz and how the users can choose what numbers they would like to add to their list. Then, the output would be the mean, median, mode, min, and max that becomes the result of the numbers the users chose.
-
-3 b. Capture and paste two program code segments you developed during the administration of this task that contain a list (or other collection type) being used to manage complexity in your program.
-
-i. The first program code segment must show how data have been stored in the list. 
-try:
- itemInput = int(input('What number would you like to add?'))
-except:
- print('Oh no! That wasn\'t an expected answer. Exiting...')
- break
-numList.append(itemInput)
-
-ii. The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose.
-
-mean = mean(numList)
-median = median(numList)
-mode = mode(numList)
-min = min(numList)
-max = max(numList)
-
-iii. Identifies the name of the list being used in this response
-
-The name of the list being used in this response would be (numList). The numList only contains the values that are identified as valid and accepted by the program according to when and where the user had given the input values. 
-
-iv. Describes what the data contained in the list represent in your program
-
-The data contained in the list that represents in my program would be the numbers that the user had decided to use. Additionally, if asked if there would be another number that the user would like to input, where if the user puts a number directly or says no the program would end right there. 
-
-v. Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list 
-
-The selected list manages complexity in the program code by how the code would have been written differently if I didn’t use a list would be to let the user use random numbers that had pre-stored in the code. The new code would give the users to manually pick which numbers they would like to use according to what is given.
-
-Word count: 157
-
-3 c. Capture and paste two program code segments you developed during the administration of this task that contain a student-developed procedure that implements an algorithm used in your program and a call to that procedure. 
-
-i. The first program code segment must be a student-developed procedure that: 
+### i. The first program code segment must be a student-developed procedure that: 
 □ Defines the procedure’s name and return type (if necessary) 
+
 □ Contains and uses one or more parameters that have an effect on the functionality of the procedure 
+
 □ Implements an algorithm that includes sequencing, selection, and iteration
 
+```python
 def OR(input, first, second):
- bool = input == first or input == second
- return bool
+    bool = input == first or input == second
+    return bool
+```
 
-
+```python
 if OR(addInput, 'y', 'yes'):
  try:
    itemInput = int(input('What number would you like to add?'))
@@ -119,10 +91,12 @@ elif OR(addInput, 'n', 'no'):
 else:
  print('Oh no! That wasn\'t an expected answer. Exiting...')
  break
+```
 
 
-ii. The second program code segment must show where your student-developed procedure is being called in your program.
+### ii. The second program code segment must show where your student-developed procedure is being called in your program.
 
+```python
 statInput = input('Would you like to see the list and the stastistics of the list? (y/n)')
 if OR(statInput, 'y', 'yes'):
  print('The list is: ' + str(numList))
@@ -132,51 +106,98 @@ if OR(statInput, 'y', 'yes'):
  print('The range is ' + str(min) + ' --> ' + str(max) + '.')
 elif OR(statInput, 'n', 'no'):
  print('Ok! End of Program.')
+```
 
 Then, provide a written response that does both of the following: 
-iii. Describes in general what the identified procedure does and how it contributes to the overall functionality of the program 
+### iii. Describes in general what the identified procedure does and how it contributes to the overall functionality of the program 
 
-In general, the identified procedure defines a boolean expression which is later used for if and else statements, where the input is equal to first or input is equal to second, and either can be true to return the boolean value. Then, with the if and else statements allow the users to enter a “y” or “n” for going on to add a numerical value. If the conditions aren’t met, the selection occurs where the program exists as the user input is not what is required. Thereafter, after the next input value that stops the program, further gives the user to choose to look at the statistics of the list they made, displaying the mean, median, mode, and range.
+Answer: In general, the identified procedure defines a Boolean expression which is later used for if and else statements, where the input is equal to first or input is equal to second, and either can be true to return the Boolean value. Then, with the if and else statements allow the users to enter a “y” or “n” for going on to add a numerical value. If the conditions aren’t met, the selection occurs where the program exists as the user input is not what is required. Thereafter, after the next input value that stops the program, further gives the user to choose to look at the statistics of the list they made, displaying the mean, median, mode, and range.
 
 
 
-iv. Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.
+### iv. Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.
 
-First step: enter an input, no certain restrictions. Make sure that every time a value has been inputted, that the first answer is “y” or else the program would close.
-Second step: you can enter as many values as would like, the important step is to remember to answer the question reasonably and to give the exact answer that the program asks
-Third step: decide if the statistics of the list can be displayed. If said no, the program would agree and closes the program. If said yes, the program will give you the numList, the mean, median, mode, and range as the minimum and maximum values have been sorted while running the program. 
+Answer: First step: enter an input, no certain restrictions. Make sure that every time a value has been inputted, that the first answer is “y” or else the program would close. Second step: you can enter as many values as would like, the important step is to remember to answer the question reasonably and to give the exact answer that the program asks. Third step: decide if the statistics of the list can be displayed. If said no, the program would agree and closes the program. If said yes, the program will give you the numList, the mean, median, mode, and range as the minimum and maximum values have been sorted while running the program. 
 
-3 d. Provide a written response that does all three of the following:
+## 3 d. Provide a written response that does all three of the following:
 
-i. Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.
+### i. Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.
 
 First call: 
-<th>{{randfact.text}} </th>
-<th>{{randfact.year}}</th>
+```python
+def OR(input, first, second):
+ bool = input == first or input == second
+ return bool
+ ```
 
-This call is where I can take the output from rapidapi, where the data then can be displayed according to the text and the year.
+
+This call is where I use the boolean function that would allow for if and else statements to be executed according to what number the user inputs. Also, the OR statement shows the numbers that the user inputs and whether or not it is valid according to the boolean function.
 
 Second call:
+```python
+ numList.append(itemInput)
+ ```
 
-<input type="button" value="Reload Page" onClick="document.location.reload(true)">
+The second call is to call the “itemInput”, which is the number inputted and to store the numbers inputted into the “numList”. 
 
-The second call is where I use Javascript from a resource of qacknit.com where the code shows the button as the input for the output of a reload of the page. I had sourced this code because it would be easier for the user to click on a button to see a new fact instead of manually clicking on the refresh icon on the top of the screen. 
-
-ii. Describes what condition(s) is being tested by each call to the procedure 
+### ii. Describes what condition(s) is being tested by each call to the procedure 
 
 Condition(s) tested by the first call:
 
-The condition that is being tested by this call to the procedure is to display a random fact that relates the to the text and year.
+```python
+if OR(addInput, 'y', 'yes'):
+ try:
+   itemInput = int(input('What number would you like to add?'))
+ except:
+   print('Oh no! That wasn\'t an expected answer. Exiting...')
+   break
+ numList.append(itemInput)
+ print('Number inputted.')
+elif OR(addInput, 'n', 'no'):
+ print('Ok! Exiting...')
+ break
+else:
+ print('Oh no! That wasn\'t an expected answer. Exiting...')
+ break
+ ```
+
+
+The condition that is being tested by this call to the procedure is to use the if and else statements which aligns with the boolean function that shows the numbers that are added by the users and whether or not their inputs are valid according to the first question asked. 
 
 Condition(s) tested by the second call:
+```python
+mean = mean(numList)
+median = median(numList)
+mode = mode(numList)
+min = min(numList)
+max = max(numList)
+statInput = input('Would you like to see the list and the statistics of the list? (y/n)')
+```
 
-The condition that is being tested by the second call to the procedure is for the output to be displayed only when the user clicks on the button to refresh the page.
+
+The condition that is being tested by the second call to the procedure is by adding a list of mathematical functions that have stored variables based on the “numList”. 
 
 iii. Identifies the result of each call 
 
 Result of the first call: 
-The result of the first call is random fact that includes the fact and the year that details the information given.
+
+```python
+ print('Number inputted.')
+ print('Ok! Exiting...')
+ print('Oh no! That wasn\'t an expected answer. Exiting...')
+ ```
+
+The result of the first call has three different results according to whether or not the user had entered “y” or “n”. For example, if the user has entered “y” for the first question always then they will have the result of “number inputted” after all questions have been answered. 
 
 
 Result of the second call:
-The result of the second call is the result of a new fact, therefore displaying a different variety of data each time the button is clicked. 
+
+```python
+ print('The list is: ' + str(numList))
+ print('The mean is ' + str(mean) + '.')
+ print('The median is ' + str(median) + '.')
+ print('The mode is ' + str(mode) + '.')
+ print('The range is ' + str(min) + ' --> ' + str(max) + '.')
+ ```
+
+The result of the second call is to show the list of numbers that the user has entered as accordingly the mean, median, mode, and range are displayed after the list have been displayed. 

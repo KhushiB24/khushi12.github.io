@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # CB University Faculty Lectures
 
 # Dat_1 University Faculty Lecture

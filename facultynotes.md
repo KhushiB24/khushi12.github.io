@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-# CB University Faculty Lectures Notes
+# CB University Faculty Lectures Notes (Optional- Compeleted for Reference)
 
 ------
 
